@@ -134,7 +134,7 @@ class Home_Page extends StatelessWidget {
       scrollable: true,
       title: const Center(
         child: Text(
-          "Do you want to delete this Tweets",
+          "Do you want to delete this data",
           style: TextStyle(
               fontWeight: FontWeight.bold, fontSize: 16, color: Colors.black),
         ),

@@ -26,7 +26,7 @@ logOut(BuildContext context) {
                 height: 35,
                 width: 100,
                 decoration: BoxDecoration(
-                  border: Border.all(color: Colors.orange),
+                  border: Border.all(color: greentheme),
                   borderRadius: BorderRadius.circular(
                     10,
                   ),
@@ -37,7 +37,7 @@ logOut(BuildContext context) {
                       FirebaseAuth auth = FirebaseAuth.instance;
                       auth.signOut();
                         
-                      replacementPushing(LogIn(), context);
+                      replacementPushing(const LogIn(), context);
                     }),
               ),
               Container(
